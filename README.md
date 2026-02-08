@@ -1,6 +1,7 @@
 # 🛒 Yapay Zekâ Tabanlı Süpermarket Hırsızlık Tespit Sistemi  
 # 🛒 AI-Based Supermarket Theft Detection System
 
+---
 ## 🇹🇷 Türkçe
 
 ### 📌 Proje Tanımı
@@ -12,19 +13,16 @@ akademik bir prototip çalışmasıdır.
 Proje, bir yazılım mühendisliği dersi kapsamında geliştirilmiş olup,  
 **Minimum Viable Product (MVP)** seviyesinde bir sistem sunmaktadır.
 
----
 ### 🎯 Amaçlar
 - Manuel kamera izleme ihtiyacını azaltmak  
 - Şüpheli olayları anlık olarak tespit etmek  
 - Olayları kayıt altına alarak sonradan incelenebilir hâle getirmek  
 - Modüler ve geliştirilebilir bir yazılım mimarisi ortaya koymak  
 
----
 ### 🧠 Sistem Mimarisi
 Kamera → Görüntü İşleme & Yapay Zekâ → Olay Yönetimi (Event Engine)  
 → Backend API → Veri Tabanı / Dashboard Arayüzü
 
----
 ### 🧩 Kullanılan Teknolojiler
 - **Python** – Ana programlama dili  
 - **YOLOv8** – Kişi ve ürün nesne tespiti  
@@ -33,18 +31,6 @@ Kamera → Görüntü İşleme & Yapay Zekâ → Olay Yönetimi (Event Engine)
 - **PyQt5** – Masaüstü kullanıcı arayüzü  
 - **SQLite** – Olay kayıtları için yerel veri tabanı  
 
----
-### 📂 Klasör Yapısı
-market_theft_detection/
-├── app/
-│   ├── data/
-│   ├── services/
-│   └── ui/
-├── docs/
-├── outputs/
-├── run.py
-└── requirements.txt
----
 ### ⚙️ Çalışma Mantığı
 1. Kamera görüntüsü gerçek zamanlı olarak alınır  
 2. Kişi ve ürünler yapay zekâ modeli ile algılanır  
@@ -53,7 +39,6 @@ market_theft_detection/
 5. Şüpheli olay oluşursa Event Engine tarafından olay üretilir  
 6. Olay Backend API üzerinden kaydedilir ve arayüzde gösterilir  
 
----
 ### 🚧 Sınırlamalar
 - Tek kamera desteği  
 - Sınırlı nesne sınıfları (person, bottle)  
@@ -89,7 +74,6 @@ and represents a **Minimum Viable Product (MVP)**.
 Camera → AI Detection & Tracking → Event Engine  
 → Backend API → Database / Dashboard Interface
 
----
 ### 🧩 Technologies Used
 - **Python** – Main programming language  
 - **YOLOv8** – Person and product object detection  
@@ -98,16 +82,6 @@ Camera → AI Detection & Tracking → Event Engine
 - **PyQt5** – Desktop GUI  
 - **SQLite** – Local event logging database  
 
-### 📂 Folder Structure
-market_theft_detection/
-├── app/
-│   ├── data/
-│   ├── services/
-│   └── ui/
-├── docs/
-├── outputs/
-├── run.py
-└── requirements.txt
 ### ⚙️ How It Works
 1. Camera frames are captured in real time  
 2. Persons and products are detected using AI models  
