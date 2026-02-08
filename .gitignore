@@ -1,0 +1,54 @@
+# model checkpoints / weights
+*.pt
+*.pth
+*.onnx
+yolov8n.pt
+
+# outputs
+outputs/
+outputs/db/
+outputs/snapshots/
+outputs/exports/
+
+# editor / macOS
+.DS_Store
+.vscode/
+__pycache__/
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# temp MS Word files
+~$*
+
+# env
+.env
+EOF# model checkpoints / weights
+*.pt
+*.pth
+*.onnx
+yolov8n.pt
+
+# outputs
+outputs/
+outputs/db/
+outputs/snapshots/
+outputs/exports/
+
+# editor / macOS
+.DS_Store
+.vscode/
+__pycache__/
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# temp MS Word files
+~$*
+
+# env
+.env
